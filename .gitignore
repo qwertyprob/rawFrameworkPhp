@@ -1,0 +1,60 @@
+# Основное
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Composer
+/vendor/
+composer.lock
+
+# Среда разработки
+.idea/
+*.iml
+*.iws
+*.sublime-*
+*.vscode/
+*.DS_Store
+*.directory
+
+# Конфиденциальные файлы
+.env
+.env.*     # .env.local, .env.testing и т.д.
+
+# PHPUnit
+.phpunit.result.cache
+coverage/
+
+# Laravel
+/storage/*.key
+/storage/app/public/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+public/storage
+
+# Node (если используешь npm, Vite и т.п.)
+/node_modules/
+/npm-debug.log*
+/yarn-error.log
+
+# Сборка фронтенда
+/public/hot
+/public/build
+/public/mix-manifest.json
+
+# Кэш и временные файлы
+*.pid
+*.seed
+*.zip
+*.tar.gz
+*.7z
+*.gz
+
+# Базы данных (если в проекте хранятся дампы)
+/*.sql
+/*.sqlite
+/*.db
