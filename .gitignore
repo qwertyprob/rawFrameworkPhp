@@ -26,6 +26,8 @@ composer.lock
 # PHPUnit
 .phpunit.result.cache
 coverage/
+/phpunit.xml.dist
+/phpunit.xml
 
 # Laravel
 /storage/*.key
